@@ -16,7 +16,7 @@ function fase(){
     } else if ( idade > 20 && idade <=64){
         resultado = document.getElementById("resultado");
        resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" + "<br/> Você é um adulto!";
-   } else if (idade > 65){
+   } else if (idade >= 65){
       resultado = document.getElementById("resultado");
      resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" + "<br/> Você é um idoso! Já possui bastante experiência!";
    }
