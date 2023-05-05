@@ -1,0 +1,62 @@
+header{
+    background-color: #cfd5e1;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #6c788e;
+    font-size: 45px;
+}
+
+body {
+    border: 2px;
+    background-color: #eee1de94;
+    text-align: center;
+    
+}
+
+.texto{
+    color: #1f192f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    
+
+  
+}
+
+*{
+  justify-content: center;
+}
+
+    .botone{
+        background-color: #a6aec1;
+        font-size: 20px;
+        font-family: 'inter';
+        font-weight: lighter;
+        height: 40px;
+        width: 200px;
+      
+    }
+
+    #peso{
+        background-color: #ffffff ;
+        height: 35px;
+        width: 500px;
+       
+    }
+   
+    #altura{
+        background-color: #ffffff ;
+        height: 35px;
+        width: 500px;
+    }
+   
+    #resultado{
+        color: #6c788e;
+        
+    }

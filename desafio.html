@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fases da Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="javascript" href="imc.js"> -->
+    <script src="java.js"></script>
+
+
+</head>
+
+<body>
+    <div class="texto">
+        <header>Fases da Vida Humana</header>
+        <h1>Qual é a sua fase?<br></h1>
+
+        <h3 id="texto">
+            Criança - até 11 anos de idade;<br>
+            Adolescente - dos 12 até 20 anos de idade;<br>
+            Adulto - dos 21 até 65 anos de idade;<br>
+            Idoso - 65 anos ou mais;<br>
+            <br>
+        </h3>
+    </div>
+
+    <div class="botao">
+    
+        <label>Digite o seu nome</label><br><br>
+        <input  type="text"  id="nome" placeholder="Exemplo: Maria" /><br><br>
+
+        <label>Digite sua idade:</label><br><br>
+        <input type="number"  id="idade" placeholder="Exemplo: 10" /><br><br>
+
+
+        <input onclick="fase()" class="botone" type="submit" value="Descubra a sua fase" />
+    
+   
+    <br>
+    <div id="resultado"></div>
+    
+
+</div>
+
+</body>
+
+</html>
