@@ -13,7 +13,7 @@ function fase(){
    } else if (idade > 11 && idade <=20){
        resultado = document.getElementById("resultado");
        resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" + "<br/> Você é um adolescente! Está ganhando novas responsabilidades!";
-    } else if ( idade > 20 && idade <=65){
+    } else if ( idade > 20 && idade <=64){
         resultado = document.getElementById("resultado");
        resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" + "<br/> Você é um adulto! Precisa arrumar um emprego!";
    } else if (idade > 65){
