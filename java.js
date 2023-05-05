@@ -18,7 +18,7 @@ function fase(){
        resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" + "<br/> Você é um adulto! Precisa arrumar um emprego!";
    } else if (idade > 65){
       resultado = document.getElementById("resultado");
-     resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" +"<br/> Seus resultado foi:" + idade + "<br/> Você é um idoso! Já possui bastante experiência!";
+     resultado.innerHTML = "<br/> Parabéns "+ nome + "!!<br/></br>" +  " Você tem " + idade + " anos!" +"<br/> Você é um idoso! Já possui bastante experiência!";
    }
 
    
